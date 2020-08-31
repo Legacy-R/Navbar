@@ -2,11 +2,69 @@ body {
   margin: 0;
   padding: 0;
 }
-
-.logo {
+body .logo {
   height: 150px;
   margin-left: 50px;
   margin-top: 50px;
+  display: none;
+}
+body .fa-bars {
+  display: block;
+  float: right;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+body .fa-times {
+  display: none;
+  float: right;
+  right: 20px;
+  font-size: 30px;
+  margin-top: 40px;
+  margin-right: 20px;
+}
+body .contenedor_menu {
+  padding: 50% 0;
+}
+body .contenedor_menu .menu {
+  list-style: none;
+  width: 280px;
+  padding: 0;
+  margin: 0 auto;
+}
+body .contenedor_menu .menu .opciones_menu {
+  width: 280px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .contenedor_menu .menu .opciones_menu .fa-angle-up {
+  display: none;
+}
+body .contenedor_menu .menu .opciones_menu a {
+  text-decoration: none;
+  color: black;
+  padding: 15px 0;
+}
+body .contenedor_menu .menu .opciones_menu .contenedor_smenu {
+  list-style: none;
+  padding: 0;
+  font-size: 13px;
+  width: 280px;
+}
+body .contenedor_menu .menu .opciones_menu .contenedor_smenu .opciones_smenu {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #000033;
+  border-bottom: 1px solid white;
+}
+body .contenedor_menu .menu .opciones_menu .contenedor_smenu .opciones_smenu a {
+  color: white;
+}
+body .contenedor_social {
+  display: none;
 }
 
 /*# sourceMappingURL=estilos.css.map */
