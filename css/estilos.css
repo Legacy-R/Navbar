@@ -46,6 +46,9 @@ body .contenedor_menu .menu .opciones_menu a {
   color: black;
   padding: 15px 0;
 }
+body .contenedor_menu .menu .opciones_menu .bullet {
+  display: none;
+}
 body .contenedor_menu .menu .opciones_menu .contenedor_smenu {
   list-style: none;
   padding: 0;
